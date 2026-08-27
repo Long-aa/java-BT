@@ -25,7 +25,7 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <mainClass>vn.edu.eaut.lab2.App</mainClass>
+                            <mainClass>vn.edu.eaut.lab3.App</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
