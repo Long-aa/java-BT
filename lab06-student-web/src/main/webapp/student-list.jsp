@@ -59,7 +59,7 @@
         </c:choose>
 
         <div class="mt-4">
-            <a href="${pageContext.request.contextPath}/welcome.jsp" class="btn" style="background-color: transparent; color: var(--primary); padding: 0; text-decoration: underline;">&larr; Quay lại trang chủ</a>
+            <a href="${pageContext.request.contextPath}/dashboard" class="btn" style="background-color: transparent; color: var(--primary); padding: 0; text-decoration: underline;">&larr; Quay lại trang chủ</a>
         </div>
     </div>
 </body>
