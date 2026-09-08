@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact</title>
+    <link rel="stylesheet" th:href="@{/css/style.css}">
+</head>
+<body>
+    <nav class="navbar">
+        <a th:href="@{/}">Home</a>
+        <a th:href="@{/about}">About</a>
+        <a th:href="@{/students}">Students</a>
+        <a th:href="@{/courses}">Courses</a>
+        <a th:href="@{/contact}">Contact</a>
+    </nav>
+    <div class="container">
+        <h1>Liên hệ</h1>
+        <p>Đơn vị: <span th:text="${department}"></span></p>
+        <p>Địa chỉ: <span th:text="${address}"></span></p>
+        <p>Điện thoại: <span th:text="${phone}"></span></p>
+    </div>
+</body>
+</html>
